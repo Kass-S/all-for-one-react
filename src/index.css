@@ -3,30 +3,17 @@
 @tailwind utilities;
 
 @font-face{
-  font-family: "Inder", Arial, Helvetica, sans-serif;
+  font-family: "Inder";
   src: url(./assets/Fonts/Inder-Regular.ttf);
 }
 @font-face{
-  font-family: "Irish", Arial, Helvetica, sans-serif;
+  font-family: "Irish";
   src: url(./assets/Fonts/IrishGrover-Regular.ttf);
 }
 
 :root {
   --font-inder: "Inder", Arial, Helvetica, sans-serif;
-  --font-irish: "Irish", Arial, Helvetica, sans-serif
-
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --font-irish: "Irish", Arial, Helvetica, sans-serif;
 }
 
 .font-inder{

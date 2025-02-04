@@ -1,4 +1,19 @@
+import { useState, useEffect } from "react"
+import { SayHelloFetch } from "../services/services"
+
 const SayHelloComponent = () => {
+    const [greeting, setGreeting] = useState('');
+
+    const fetchGreeting = async (event, sayGreeting) => {
+        if(event.key === 'Enter'){
+            console.log(sayGreeting);
+            console.log(await SayHelloFetch(sayGreeting));
+        }
+    }
+
+    useEffect(() => {
+        console.log(greeting);
+    }, [])
 
     return(
         
@@ -11,7 +26,9 @@ const SayHelloComponent = () => {
 
                 <p id="SayHelloText"></p>
 
-                <input type="text" placeholder="Name here..." className="bg-white border-1 border-black col-[3] row-[3] m-3 rounded-2xl" />
+                <input type="text" placeholder="Name here..." className="bg-white border-1 border-black col-[3] row-[3] m-3 rounded-2xl" onKeyDown={(event) => { 
+                    console.log()
+                    fetchGreeting(event, event.target.value)}} />
 
                 <button className="text-2xl bg-white border-[3px] border-black col-[3] row-[4] m-3 rounded-2xl cursor-pointer">Go!</button>
                 

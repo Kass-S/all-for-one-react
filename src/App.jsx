@@ -10,8 +10,8 @@ function App() {
       </div>
       
         
-      <div className="flex justify-center">
-        <a href="/Pages" className='text-black font-inder m-4 px-6 py-2 rounded-lg border-[2px] border-[#4C452C] bg-[#F0EBD9]'>Start</a>
+      <div className="flex justify-center mt-[50px]">
+        <a href="/Pages" className='text-black font-inder text-3xl m-4 px-20 py-4 rounded-lg border-[2px] border-[#4C452C] bg-[#F0EBD9]'>Start</a>
       </div>
         
      

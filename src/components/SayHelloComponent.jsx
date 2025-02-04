@@ -12,7 +12,7 @@ const SayHelloComponent = () => {
     }
 
     useEffect(() => {
-        console.log(greeting);
+        
     }, [])
 
     return(

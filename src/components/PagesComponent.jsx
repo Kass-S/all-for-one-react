@@ -1,7 +1,7 @@
 const PagesComponent = () => {
     return (
         <>
-          <a href="/" className='text-sky-500 m-4'>Back</a>
+          <a href="/" className=""><button className="text-black text-3xl m-5 bg-amber-50 rounded-2xl border-amber-100 border-3 p-2 px-4">Back</button></a>
           <div>
             <a href="/SayHello" className='text-sky-500 m-4' >Say Hello</a> 
             <a href="/Add2Numbers" className='text-sky-500 m-4' >Add 2 Numbers</a>

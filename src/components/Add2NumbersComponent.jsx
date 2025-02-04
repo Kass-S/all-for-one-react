@@ -2,7 +2,7 @@ const Add2NumbersComponent = () => {
     return(
         <div className="bg-[url(/src/Assets/AllForOneAdd2Nums.jpg)] bg-no-repeat bg-cover bg-center h-[100vh] text-black">
 
-            <button className="font-inder text-3xl m-5 bg-amber-50 rounded-2xl border-amber-100 border-3 p-2 px-4"><a href="/Pages" >Back</a></button>
+            <a href="/pages" className=""><button className="text-black text-3xl m-5 bg-amber-50 rounded-2xl border-amber-100 border-3 p-2 px-4">Back</button></a>
 
             <div className="font-inder bg-white/70 grid mx-52 mt-14 grid-cols-5 grid-rows-6 rounded-3xl mr-[40rem]">
                 <p className="text-3xl flex justify-center my-5 col-span-5">Add 2 Numbers</p>

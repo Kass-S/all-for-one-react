@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
       </div>
        
       <div className="flex justify-center mt-[50px]">
-        <a href="/Pages" className='text-black font-inder text-3xl m-4 px-20 py-4 rounded-lg border-[2px] border-[#4C452C] bg-[#F0EBD9]'>Start</a>
+        <Link to="/Pages" className='text-black font-inder text-3xl m-4 px-20 py-4 rounded-lg border-[2px] border-[#4C452C] bg-[#F0EBD9]'>Start</Link>
       </div>
 
     </div>

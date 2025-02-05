@@ -18,4 +18,10 @@ const AskingQuestionsFetch = async (nameInput, timeInput) => {
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch}
+const OddEvenFetch = async (number) => {
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/OddEven/OddEvenAnswer/${number}`);
+    const data = response.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch}

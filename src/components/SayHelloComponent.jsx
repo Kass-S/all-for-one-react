@@ -34,7 +34,7 @@ const SayHelloComponent = () => {
 
                 <button className="text-2xl bg-white border-[3px] border-black col-[3] row-[4] m-3 rounded-xl cursor-pointer" onClick={displayGreeting}>Go!</button>
 
-                <p className="col-[3] row-[2] ">{display}</p>
+                <p className="flex justify-center self-center col-start-[2] col-end-[5] row-[2] ">{display}</p>
                 
             </div>
         </div>

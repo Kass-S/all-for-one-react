@@ -11,13 +11,11 @@ const AskingQuestionsComponent = () => {
 
                 <p ></p>
 
-                <input type="text" placeholder="Name here..." className="bg-white border-1 col-start-2 col-end-4 row-[2] m-3 rounded-2xl mr-40" />
+                <input type="text" placeholder="Name here..." className="bg-white border-1 col-start-2 col-end-4 row-[2] m-3 rounded-xl mr-40" />
                 
-                <input type="text" placeholder="Time woke up here..." className="bg-white border-1 col-start-3 col-end-5 row-[2] m-3 rounded-2xl ml-40" />
+                <input type="text" placeholder="Time woke up here..." className="bg-white border-1 col-start-3 col-end-5 row-[2] m-3 rounded-xl ml-40" />
 
-                <button className="text-2xl bg-white border-black border-[3px] col-start-2 col-end-5 row-[3] m-3 mx-52 rounded-2xl cursor-pointer">Go!</button>
-
-                <a href="" className="hidden">Go Again</a>
+                <button className="text-2xl bg-white border-black border-[3px] col-start-2 col-end-5 row-[3] m-3 mx-52 rounded-xl cursor-pointer">Go!</button>
             
             </div>
         </div>

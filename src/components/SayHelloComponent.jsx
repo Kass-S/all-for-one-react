@@ -11,9 +11,6 @@ const SayHelloComponent = () => {
         }
     }
 
-    useEffect(() => {
-        
-    }, [])
 
     return(
         
@@ -24,13 +21,13 @@ const SayHelloComponent = () => {
             <div className="text-black font-inder bg-white/70 grid mx-52 mt-14 grid-cols-5 grid-rows-6 rounded-3xl">
                 <p className="text-black text-3xl flex justify-center my-5 col-[3]">Say Hello</p>
 
-                <p id="SayHelloText"></p>
+                <p></p>
 
-                <input type="text" placeholder="Name here..." className="bg-white border-1 border-black col-[3] row-[3] m-3 rounded-2xl" onKeyDown={(event) => { 
+                <input type="text" placeholder="Name here..." className="bg-white border-1 border-black col-[3] row-[3] m-3 rounded-xl" onKeyDown={(event) => { 
                     console.log()
                     fetchGreeting(event, event.target.value)}} />
 
-                <button className="text-2xl bg-white border-[3px] border-black col-[3] row-[4] m-3 rounded-2xl cursor-pointer">Go!</button>
+                <button className="text-2xl bg-white border-[3px] border-black col-[3] row-[4] m-3 rounded-xl cursor-pointer">Go!</button>
                 
             </div>
         </div>

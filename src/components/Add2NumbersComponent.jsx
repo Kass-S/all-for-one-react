@@ -9,13 +9,11 @@ const Add2NumbersComponent = () => {
 
                 <p ></p>
 
-                <input type="text" placeholder="1st number here..." className="bg-orange-200 border-1 col-start-2 col-end-4 row-[3] m-3 rounded-2xl mr-20" />
+                <input type="text" placeholder="1st number here..." className="bg-orange-200 border-1 col-start-2 col-end-4 row-[3] m-3 rounded-xl mr-20" />
 
-                <input  type="text" placeholder="2nd number here..." className="bg-orange-200 border-1 col-start-3 col-end-5 row-[3] m-3 rounded-2xl ml-20" />
+                <input  type="text" placeholder="2nd number here..." className="bg-orange-200 border-1 col-start-3 col-end-5 row-[3] m-3 rounded-xl ml-20" />
 
-                <button className="text-2xl bg-orange-300 border-[3px] border-black col-start-2 col-end-5 row-[5] m-3 mx-28 rounded-2xl cursor-pointer">Add!</button>
-
-                <a id="AddNumbersAgainBtn" href="" className="hidden">Go Again</a>
+                <button className="text-2xl bg-orange-300 border-[3px] border-black col-start-2 col-end-5 row-[5] m-3 mx-28 rounded-xl cursor-pointer">Add!</button>
                 
             </div>
         </div>

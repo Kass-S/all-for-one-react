@@ -4,7 +4,7 @@ const Magic8BallComponent = () => {
 
             <a href="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
 
-            <div className="text-white font-inder bg-orange-400/70 grid mx-[27rem] mt-5 grid-cols-3 grid-rows-7 rounded-3xl">
+            <div className="text-white font-inder bg-[#DB9E4E]/75 grid mx-[27rem] mt-5 grid-cols-3 grid-rows-7 rounded-3xl">
 
                 <p className="text-3xl flex justify-center my-5 col-[2]">Magic 8 Ball</p>
 

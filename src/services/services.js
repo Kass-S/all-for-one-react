@@ -6,4 +6,10 @@ const SayHelloFetch = async (sayHelloName) => {
     return data;
 }
 
-export {SayHelloFetch}
+const AddNumbersFetch = async (num1, num2) => {
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/Add2Num/Add/${num1}/${num2}`);
+    const data = response.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch}

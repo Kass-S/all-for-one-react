@@ -4,7 +4,7 @@ const NumberReverseItComponent = () => {
 
             <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
 
-            <div className="text-black font-inder bg-white/70 grid mx-80 mt-14 grid-cols-3 grid-rows-6 rounded-3xl">
+            <div className="text-black font-inder bg-[#E4DFD1]/80 grid mx-80 mt-14 grid-cols-3 grid-rows-6 rounded-3xl">
 
                 <p className="text-3xl flex justify-center my-5 col-[2]">Reverse It</p>
 

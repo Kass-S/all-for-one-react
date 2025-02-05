@@ -6,10 +6,7 @@ const SayHelloComponent = () => {
     const [display, setDisplay] = useState("");
 
     const fetchGreeting = async (sayGreeting) => {
-        
-        console.log(sayGreeting);
         setGreeting(await SayHelloFetch(sayGreeting));
-        
     }
 
     const displayGreeting = async () => {

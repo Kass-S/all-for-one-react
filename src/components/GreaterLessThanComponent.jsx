@@ -4,7 +4,7 @@ const GreaterLessThanComponent = () => {
 
             <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
 
-            <div className="font-inder bg-cyan-100/70 grid mx-60 mt-14 grid-cols-5 grid-rows-3 rounded-3xl gap-y-10 pb-30">
+            <div className="font-inder bg-[#EBFAFE]/75 grid mx-60 mt-14 grid-cols-5 grid-rows-3 rounded-3xl gap-y-10 pb-30">
 
                 <p className="text-3xl flex justify-center my-5 col-span-5">Greater Than Less Than</p>
 

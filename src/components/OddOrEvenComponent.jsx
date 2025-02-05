@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom"
+
 const OddOrEvenComponent = () => {
 
     return(
         <div className="bg-[url(/src/Assets/AllForOneOddEven.jpg)] bg-no-repeat bg-cover h-[100vh]">
 
-            <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
+            <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
             <div className="font-inder bg-white/70 grid mx-52 mt-14 grid-cols-5 grid-rows-3 rounded-3xl gap-y-6 pb-10">
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AskingQuestionsFetch } from "../services/services";
+import { Link } from "react-router-dom";
 
 const AskingQuestionsComponent = () => {
     const [nameInput, setNameInput] = useState('');
@@ -12,8 +13,7 @@ const AskingQuestionsComponent = () => {
     }
 
     const displaySolution = async () => {
-        fetchQuestions()
-        
+        fetchQuestions()    
     }
 
     useEffect(() => {
@@ -23,7 +23,7 @@ const AskingQuestionsComponent = () => {
     return(
         <div className="bg-[url(/src/Assets/AllForOneAskingQuestions.jpg)] bg-no-repeat bg-cover h-[100vh]">
 
-            <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
+            <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
             <div className="font-inder bg-white/80 grid mx-52 mt-14 grid-cols-5 grid-rows-4 rounded-3xl gap-y-6 pb-10">
 

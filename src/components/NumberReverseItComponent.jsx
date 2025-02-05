@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
+
 const NumberReverseItComponent = () => {
     return (
         <div className="bg-[url(/src/Assets/AllForOneReverseIt.jpg)] bg-no-repeat bg-cover bg-center h-[100vh]">
 
-            <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
+            <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
             <div className="text-black font-inder bg-[#E4DFD1]/80 grid mx-80 mt-14 grid-cols-3 grid-rows-6 rounded-3xl">
 

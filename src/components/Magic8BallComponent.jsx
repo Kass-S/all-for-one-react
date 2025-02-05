@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom"
+
 const Magic8BallComponent = () => {
     return (
         <div className="bg-[url(/src/Assets/AllForOneMagic.jpg)] bg-no-repeat bg-cover bg-center h-[100vh]">
 
-            <a href="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
+            <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
             <div className="text-white font-inder bg-[#DB9E4E]/75 grid mx-[27rem] mt-5 grid-cols-3 grid-rows-7 rounded-3xl">
 

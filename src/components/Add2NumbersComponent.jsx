@@ -26,10 +26,10 @@ const Add2NumbersComponent = () => {
 
             <a href="/pages" className=""><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></a>
 
-            <div className="font-inder bg-white/70 grid mx-52 mt-14 grid-cols-5 grid-rows-6 rounded-3xl mr-[40rem]">
+            <div className="font-inder bg-white/80 grid mx-52 mt-14 grid-cols-5 grid-rows-6 rounded-3xl mr-[40rem]">
                 <p className="text-3xl flex justify-center my-5 col-span-5">Add 2 Numbers</p>
 
-                <p >{display}</p>
+                <p className="flex justify-center self-center col-start-[2] col-end-[5] row-[2] ">{display}</p>
 
                 <input type="text" placeholder="1st number here..." className="bg-[#FFE6B7] border-1 col-start-2 col-end-4 row-[3] m-3 rounded-xl mr-20" onChange={(event) => {
                     setNum1(event.target.value)

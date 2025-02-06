@@ -12,7 +12,7 @@ const PagesComponent = () => {
             <Link to="/AskingQuestions" className='text-black text-2xl py-2 my-5 px-4 mx-6 m-6 bg-[#F0EBD9] rounded-md border-[1px] border-[#4C452C]' >Asking Qestions</Link>
           </div>
           <div className="m-10 font-inder">
-            <Link to="/OddOrEven" className='text-black text-2xl py-2 my-5 px-4 mx-6 m-6 bg-[#F0EBD9] rounded-md border-[1px] border-[#4C452C]' >Odd orEven</Link> 
+            <Link to="/OddOrEven" className='text-black text-2xl py-2 my-5 px-4 mx-6 m-6 bg-[#F0EBD9] rounded-md border-[1px] border-[#4C452C]' >Odd or Even</Link> 
             <Link to="/MadLib" className='text-black text-2xl py-2 my-5 px-4 mx-6 m-6 bg-[#F0EBD9] rounded-md border-[1px] border-[#4C452C]' >MadLib</Link>
             <Link to="/NumberReverseIt" className='text-black text-2xl py-2 my-5 px-4 mx-6 m-6 bg-[#F0EBD9] rounded-md border-[1px] border-[#4C452C]' >Reverse It #</Link>
           </div>

@@ -24,4 +24,10 @@ const OddEvenFetch = async (number) => {
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch}
+const MadLibFetch = async (madLibNoun, madLibAnimal, madLibName, madLibDifferentName, madLibEmotion, madLibAction, madLibJob, madLibStructure) => {
+    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/MadLib/MadLibStory/${madLibNoun}/${madLibAnimal}/${madLibName}/${madLibDifferentName}/${madLibEmotion}/${madLibAction}/${madLibJob}/${madLibStructure}`);
+    const data = await promise.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch}

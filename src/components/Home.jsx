@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-    <div className="bg-[url(/src/Assets/AllForOneHome.jpg)] bg-no-repeat bg-cover bg-center h-[100vh]">
+    <div className="bg-[url(/src/assets/AllForOneHome.jpg)] bg-no-repeat bg-cover bg-center h-[100vh]">
       
       <div>
         <h1 className="text-black font-irish text-6xl sm:text-9xl flex justify-center ">All For One</h1>

@@ -42,4 +42,10 @@ const AlphnumericReverseFetch = async (reverseItString) => {
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch }
+const GreaterLessFetch = async (greaterLessNum1, greaterLessNum2) => {
+    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/GreaterLess/GreaterLessThan/${greaterLessNum1}/${greaterLessNum2}`)
+    const data = await promise.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch, GreaterLessFetch }

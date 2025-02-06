@@ -37,15 +37,21 @@ const NumberReverseFetch = async (reverseItNum) => {
 }
 
 const AlphnumericReverseFetch = async (reverseItString) => {
-    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/StringReverse/ReverseIt/${reverseItString}`);
-    const data = await promise.text();
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/StringReverse/ReverseIt/${reverseItString}`);
+    const data = await response.text();
     return data;
 }
 
 const GreaterLessFetch = async (greaterLessNum1, greaterLessNum2) => {
-    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/GreaterLess/GreaterLessThan/${greaterLessNum1}/${greaterLessNum2}`)
-    const data = await promise.text();
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/GreaterLess/GreaterLessThan/${greaterLessNum1}/${greaterLessNum2}`)
+    const data = await response.text();
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch, GreaterLessFetch }
+const Magic8BallFetch = async (magic8Input) => {
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/Magic8Ball/Magic8/${magic8Input}`);
+    const data = await response.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch, GreaterLessFetch, Magic8BallFetch }

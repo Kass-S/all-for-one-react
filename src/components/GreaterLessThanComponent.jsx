@@ -25,7 +25,7 @@ const GreaterLessThanComponent = () => {
 
             <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
-            <div className="font-inder bg-[#EBFAFE]/75 grid mx-60 mt-14 grid-cols-5 grid-rows-4 rounded-3xl gap-y-3 pb-30">
+            <div className="font-inder bg-[#EBFAFE]/75 grid mx-60 mt-5 grid-cols-5 grid-rows-4 rounded-3xl gap-y-3 pb-30">
 
                 <p className="text-3xl flex justify-center my-5 col-span-5">Greater Than Less Than</p>
 

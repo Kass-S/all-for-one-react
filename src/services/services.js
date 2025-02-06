@@ -25,9 +25,21 @@ const OddEvenFetch = async (number) => {
 }
 
 const MadLibFetch = async (madLibNoun, madLibAnimal, madLibName, madLibDifferentName, madLibEmotion, madLibAction, madLibJob, madLibStructure) => {
-    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/MadLib/MadLibStory/${madLibNoun}/${madLibAnimal}/${madLibName}/${madLibDifferentName}/${madLibEmotion}/${madLibAction}/${madLibJob}/${madLibStructure}`);
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/MadLib/MadLibStory/${madLibNoun}/${madLibAnimal}/${madLibName}/${madLibDifferentName}/${madLibEmotion}/${madLibAction}/${madLibJob}/${madLibStructure}`);
+    const data = await response.text();
+    return data;
+}
+
+const NumberReverseFetch = async (reverseItNum) => {
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/NumberReverse/NumberReverseIt/${reverseItNum}`);
+    const data = await response.text();
+    return data;
+}
+
+const AlphnumericReverseFetch = async (reverseItString) => {
+    const promise = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/StringReverse/ReverseIt/${reverseItString}`);
     const data = await promise.text();
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch}
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch }

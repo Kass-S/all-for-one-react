@@ -20,7 +20,7 @@ const OddOrEvenComponent = () => {
 
             <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
-            <div className="font-inder bg-white/70 grid mx-52 mt-14 grid-cols-5 grid-rows-4 rounded-3xl gap-y-6 pb-10">
+            <div className="font-inder bg-white/70 grid mx-10 lg:mx-52 mt-10 lg:grid-cols-5 grid-rows-4 rounded-3xl gap-y-6 pb-20 md:pb-10">
 
                 <p className="text-black text-3xl flex justify-center my-5 col-span-5">Odd or Even</p>
 

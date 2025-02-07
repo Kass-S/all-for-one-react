@@ -20,7 +20,7 @@ const RestaurantPickerComponent = () => {
 
            <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
-            <div className="font-inder bg-[#65C06B]/90 grid mx-10 lg:mx-52 mt-10 md:grid-cols-3 grid-rows-5 md:grid-rows-7 rounded-3xl xl:mr-[40rem] pb-20 md:pb-0">
+            <div className="font-inder bg-[#65C06B]/90 grid mx-10 lg:mx-52 mt-5 md:grid-cols-3 grid-rows-5 md:grid-rows-7 rounded-3xl xl:mr-[40rem] pb-10 md:pb-0">
 
                 <p className="text-3xl flex justify-center my-5 md:col-span-5">Restaurant Picker</p>
 

@@ -11,7 +11,6 @@ const SayHelloComponent = () => {
     }
 
     const displayGreeting = async () => {
-        console.log(greeting);
         setDisplay(greeting);
     }
 
@@ -27,7 +26,9 @@ const SayHelloComponent = () => {
                 
 
                 <input type="text" placeholder="Name here..." className="bg-white border-1 border-black col-[3] row-[3] m-3 rounded-xl" onChange={(event) => { 
-                    fetchGreeting( event.target.value);}} />
+                        fetchGreeting(event.target.value);
+                    }
+                } />
 
                 <button className="text-2xl bg-white border-[3px] border-black col-[3] row-[4] m-3 rounded-xl cursor-pointer" onClick={displayGreeting}>Go!</button>
 

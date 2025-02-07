@@ -8,11 +8,13 @@ const RestaurantPickerComponent = () => {
 
     const fetchRestaurant = async () => {
         setDisplay(await RestaurantPickerFetch(restaurant));
+        setRestauant("");
     }
 
     useEffect(() => {
-        fetchRestaurant();
-        setRestauant("");
+        if(restaurant != ""){
+            fetchRestaurant();
+        }       
     }, [restaurant])
 
     return (

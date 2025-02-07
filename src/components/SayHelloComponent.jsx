@@ -15,7 +15,6 @@ const SayHelloComponent = () => {
         setDisplay(greeting);
     }
 
-
     return(
         
         <div className="bg-[url(/src/assets/AllForOneSayHello.jpg)] bg-no-repeat bg-cover bg-center h-[100vh]">

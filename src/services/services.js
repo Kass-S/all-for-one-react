@@ -54,4 +54,10 @@ const Magic8BallFetch = async (magic8Input) => {
     return data;
 }
 
-export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch, GreaterLessFetch, Magic8BallFetch }
+const RestaurantPickerFetch = async (restaurantChoice) => {
+    const response = await fetch(`https://kspacekallforone-hfdea4h9dre7adfd.westus-01.azurewebsites.net/RestaurantPicker/Pick/${restaurantChoice}`);
+    const data = await response.text();
+    return data;
+}
+
+export {SayHelloFetch, AddNumbersFetch, AskingQuestionsFetch, OddEvenFetch, MadLibFetch, NumberReverseFetch, AlphnumericReverseFetch, GreaterLessFetch, Magic8BallFetch, RestaurantPickerFetch }

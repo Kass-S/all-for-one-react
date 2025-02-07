@@ -13,14 +13,12 @@ const Add2NumbersComponent = () => {
     }
 
     const displaySolution = async () => {
-        fetchNumbers()
-        
+        fetchNumbers()    
     }
 
     useEffect(() => {
         setDisplay(solution);
-    }, [solution])
-    
+    }, [solution])    
 
     return(
         <div className="bg-[url(/src/assets/AllForOneAdd2Nums.jpg)] bg-no-repeat bg-cover bg-center h-[100vh] text-black">

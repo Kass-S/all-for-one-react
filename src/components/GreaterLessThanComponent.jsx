@@ -25,21 +25,21 @@ const GreaterLessThanComponent = () => {
 
             <Link to="/pages"><button className="text-black text-2xl m-5 bg-[#F0EBD9] rounded-xl border-[#DFD9C5] border-[3px] p-2 px-8">Back</button></Link>
 
-            <div className="font-inder bg-[#EBFAFE]/75 grid mx-60 mt-5 grid-cols-5 grid-rows-4 rounded-3xl gap-y-3 pb-30">
+            <div className="font-inder bg-[#EBFAFE]/75 grid mx-10 lg:mx-40 xl:mx-60 mt-5 grid-rows-5 md:grid-cols-3 lg:grid-cols-5 md:grid-rows-4 rounded-3xl gap-y-3 ">
 
-                <p className="text-3xl flex justify-center my-5 col-span-5">Greater Than Less Than</p>
+                <p className="text-2xl md:text-3xl flex justify-center my-5 md:col-span-3 lg:col-span-5">Greater Than Less Than</p>
 
-                <p className="flex justify-center self-center col-start-[2] col-end-[5] row-[2] ">{display}</p>
+                <p className="flex justify-center self-center mx-2 md:col-span-3 lg:col-start-[2] lg:col-end-[5] row-[2] ">{display}</p>
 
-                <input type="text" placeholder="1st number here..." className="bg-white border-1 col-start-2 col-end-4 row-[3] m-3 rounded-xl mr-40" onChange={(event) => {
+                <input type="text" placeholder="1st number here..." className="bg-white border-1 lg:col-start-2 lg:col-end-4 row-[3] m-3 rounded-xl mx-10 lg:mx-0 lg:mr-40" onChange={(event) => {
                     setNum1(event.target.value)
                 }}/>
 
-                <input type="text" placeholder="2nd number here..." className="bg-white border-1 col-start-3 col-end-5 row-[3] m-3 rounded-xl ml-40" onChange={(event) => {
+                <input type="text" placeholder="2nd number here..." className="bg-white border-1 lg:col-start-3 lg:col-end-5 md:col-[3] md:row-[3] m-3 rounded-xl mx-10 lg:mx-0 lg:ml-40" onChange={(event) => {
                     setNum2(event.target.value)
                 }} />
 
-                <button className="text-2xl bg-white border-[3px] border-black col-start-2 col-end-5 row-[4] m-3 mx-48 rounded-xl cursor-pointer" onClick={displaySolution}>Go!</button>
+                <button className="text-2xl bg-white border-[3px] border-black lg:col-start-2 lg:col-end-5 md:col-[2] md:row-[4] m-3 mx-10 lg:mx-36 xl:mx-48 rounded-xl cursor-pointer" onClick={displaySolution}>Go!</button>
                 
             </div>
         </div>
